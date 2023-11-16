@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.cat-image {
+    max-width: 300px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.cat-image:hover {
+    transform: scale(1.1);
+}
+
+#helloButton {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#helloButton:hover {
+    background-color: #ffdd55;
+}
+
+.toast {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
